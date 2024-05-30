@@ -1,1 +1,1 @@
-# CRT_PREMIUM_BATCH
+Contains the programs and coding problems we had solved using C Programming during the CRT training. I hope these programs are helpful to anyone who are trying to learn C PROGRAMMING along with DATA STRUCTURES
