@@ -1,0 +1,16 @@
+h1,h2{
+    color: darkmagenta;
+}
+p{
+    color:blue;
+}
+#green{
+    color: chartreuse;
+}
+.brown{
+    color: brown;
+}
+#green,.brown{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+} 

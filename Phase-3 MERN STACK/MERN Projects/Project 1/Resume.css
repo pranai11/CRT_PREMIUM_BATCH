@@ -1,0 +1,79 @@
+#img1{
+    width: 100%;
+}
+#left{
+    background-color: rgb(83, 81, 81);
+    color: white;
+    width: 250px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    /* Removed padding top and left and or padding: 20px 0px 30px 15px;    */
+}
+*{
+
+    margin: 0px;
+    font-family: sans-serif;
+   
+}
+.bottom-margin{
+    margin-bottom: 15px;
+}
+.above-head{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.left-m{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.parent{
+    display: flex;
+}
+.right-division{
+    height: 100%;
+    width: 600px;
+    border: 2px ridge rgb(83,81,81);
+    padding-top: 15px;
+}
+#empty{
+    padding: 20px;
+}
+#name{
+    padding: 40px 30px 40px 75px;
+    background-color: rgb(254, 203, 0);
+
+}
+#about{
+    padding: 10px 20px 5px 30px;
+}
+.work{
+    padding: 40px;
+}
+.details{
+    background-color: rgb(156, 154, 151);
+    padding: 3px 10px 3px 10px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.da{
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+table{
+    margin: 0px;
+}
+.rpart{
+    padding:10px 10px 15px 10px;
+}
+.ws{
+    min-width: fit-content;padding-top: 10px;
+}
+.witems{
+    margin-top: 5px;
+}
+.sunderlineouter{
+    background-color: gray;
+}
+.sunderlineinner{
+    border: 2px solid black;margin-top: 5px; width: 80%;
+}
