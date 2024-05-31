@@ -119,13 +119,6 @@ a{
     width: 90%;
     padding-left: 10px;
 }
-footer{
-    height: 50px;
-    margin-top: 2px;
-    background-color: black;
-    align-items: center;
-    color: white;
-}
 .box4{
     margin: 0px;
     padding: 0px;
@@ -136,9 +129,10 @@ footer{
     border: 2px ridge white;
     background-color: white;
     margin-bottom: 10px;
+    padding-left: 30px;
 }
 .innerboxlast p{
-    margin: 10px;
+    margin-left: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
     background-color: white;
@@ -159,4 +153,15 @@ footer{
     height: 70%;
     width: 90%;
     padding: 10px;
+}
+footer{
+    height: 60px;
+    margin-top: 2px;
+    background-color: black;
+    color: white;
+}
+footer p{
+    margin: 0px;
+    padding-top: 10px;
+    text-align:center;
 }
