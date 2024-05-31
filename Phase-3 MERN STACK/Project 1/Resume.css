@@ -1,3 +1,7 @@
+.parent{
+    display: flex;
+    margin: 40px 0px 40px 100px;
+}
 #img1{
     width: 100%;
 }
@@ -26,9 +30,6 @@
     margin-left: 20px;
     margin-top: 30px;
 }
-.parent{
-    display: flex;
-}
 .right-division{
     height: 100%;
     width: 600px;
@@ -47,7 +48,7 @@
     padding: 10px 20px 5px 30px;
 }
 .work{
-    padding: 40px;
+    padding: 30px;
 }
 .details{
     background-color: rgb(156, 154, 151);
@@ -59,21 +60,25 @@
     padding-left: 10px;
     margin-bottom: 15px;
 }
-table{
-    margin: 0px;
-}
 .rpart{
-    padding:10px 10px 15px 10px;
+    padding:10px 10px 10px 10px;
 }
 .ws{
-    min-width: fit-content;padding-top: 10px;
+    margin-left: 50px;
+    min-width: fit-content;
+    padding-top: 20px;
 }
 .witems{
     margin-top: 5px;
 }
 .sunderlineouter{
-    background-color: gray;
+    background-color: grey;
 }
-.sunderlineinner{
-    border: 2px solid black;margin-top: 5px; width: 80%;
+.sunderline{
+    border: 2px solid black;
+    margin-top: 5px; 
+    width: 80%;
+}
+.right{
+    margin: 30px;
 }
