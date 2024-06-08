@@ -1,0 +1,375 @@
+*{
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+body{
+    margin: 0px;
+}
+.primary-nav{
+    background-color: black;
+    color: white;
+    height:40px;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+
+}
+.secondary-nav{
+    height: 26px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: #232f3e;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+img{
+    height: 35px;
+    margin: 2px;
+}
+.location{
+    margin: 3px;
+    padding-right: 0px;
+}
+.lcontent1{
+    margin: 2px;
+    padding-top: 5px;
+    font-size: 15px;
+    line-height: 10px;
+    font-weight: 200;
+}
+.lcontent2{
+    margin:2px;
+    padding-top: 5px;
+    font-size: 15px;
+    line-height: 10px;  
+    font-weight: 700;
+}
+.search-bar{
+    background-color: white;
+    width: 500px;
+    height: 30px;
+    border-radius: 0px;
+    border: 0px solid white;
+    margin-top: 4px;
+}
+.search{
+    display: flex;
+}
+.all{
+    border: 0px solid white;
+    height: 32px;
+    margin: 0px;
+    margin-top: 4px;
+    padding: 4px;
+}
+.cart,.iloc,.flag,.lock{
+    display: flex;
+}
+.lock{
+    display: flex;
+    margin-top: 5px
+}
+.loc{
+    display: block;
+}
+.img2{
+    margin-top: 3px;
+    height: 30px;
+}
+.img3{
+    margin-top: 18px;
+    margin-right: 5px;
+    height: 15px;
+}
+.img4{
+    margin-right: 5px;
+    height: 20px;
+}
+.menu{
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    font-weight: bold;
+}
+a{
+    color: white;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 8px;
+    margin-right: 8px;
+    text-decoration: none;
+}
+.banner{
+    height: 25px;
+}
+.third-nav{
+    height: 26px;
+    padding: 10px 5px 15px 5px;
+    background-color: white;
+    display: flex;
+    color: black;
+    border: 1px solid rgb(142, 137, 137);
+    justify-content: space-between;
+}
+.third-nav a{
+    color: black;
+    font-size: smaller;
+}
+#topm{
+    margin-top: 20px;
+    font-size: small;
+    padding-left: 15px;
+}
+.main-content{
+    margin-top: 30px;
+    display: flex;
+}
+.left{
+    margin-left: 15px;
+    height: 400px;
+    width: 40%;
+    padding-right: 0px;
+    margin-right: 15px;
+}
+.img1{
+    height: 100%;
+    width: 100%;
+}
+.prodimg img{
+    height: 70px;
+}
+.middle{
+    margin-left: 20px;
+    height: 600px;
+    width: 455px;
+}
+.right{
+    margin-left: 30px;
+    width: 230px;
+    height: 500px;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 5px;
+    padding: 20px;
+    line-height: 20px;
+}
+.matter p{
+    font-size: x-large;
+    margin-top: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.middle a,.right a{
+    color: #007185;
+    margin: 0px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.offer{
+    margin-top:5px; 
+    color:rgb(246, 104, 104); 
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.mrp{
+    color: grey;
+    margin: 5px 0px 0px 0px;
+    font-size: 12px;
+}
+.original{
+    text-decoration: line-through;
+    margin: 0px;
+}
+.emi{
+    margin: 0px;
+    font-size: 15px;
+}
+.emioption{
+    border: 0px solid white;
+    color:#007185
+}
+.offerflex{
+    display: flex;
+}
+.offerlogo{
+    width: 25px;
+    height:100%
+}
+.offertext{
+    margin: 5px 0px 0px 10px;
+    font-weight: bold;
+}
+.bank-offer{
+    margin-top: 8px;
+    margin-bottom: 15px;
+    height: 120px;
+    width: 100%;
+    display: flex;
+}
+.offer1,.offer2{
+    margin: 0px 6px 0px 0px;
+    border-radius: 5px;
+    width: 160px;
+    height: 100%;
+    border: 1px solid rgb(169, 167, 167);
+}
+.offer1 p{
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 10px;
+    line-height: 6px;
+    color: #333535;
+}
+.offer2 p{
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 10px;
+    line-height: 6px;
+    color: #333535;
+}
+.offer1 a{
+    padding-left: 10px;
+}
+.offer2 a{
+    padding-left: 10px;
+}
+.delivery{
+    display: flex;
+}
+.indelivery{
+    display: block;
+}
+.dcontent{
+    text-align: center;
+    line-height: 2px;
+    font-size: 13px;
+    color: #007185;
+}
+.dimg{
+    padding: 10px 30px 0px 20px;
+}
+.address{
+    display: flex;
+    margin-top: 15px;
+}
+.but{
+    width: 215px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 35px;
+    border: 0px solid grey;
+}
+.add{
+    width: 215px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 30px;
+    padding-right: 90px;
+    border: 1px solid grey;
+    background-color: white;
+}
+footer{
+    margin: 0px;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+.Copyrights{
+    margin: 0px;
+    padding: 10px 25px 10px 300px;
+}
+.back-to-top{
+    margin: 0px;
+    background-color: #37475a;
+}
+.back-to-top p{
+    margin: 0px;
+    color: white;
+    text-align: center;
+    padding: 20px 20px 20px 0px;
+}
+.e{
+    background-color: #3b4b4b;
+}
+.endlogo{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #232f3e;
+}
+.end{
+    background-color: #232f3e;
+    margin: 0px;
+    padding-left: 80px;
+    height: 320px;
+    display: flex;
+}
+.ebox{
+    height: 300px;
+    width: 23%;
+    margin: 25px 10px 25px 25px;
+    justify-content: space-evenly;
+    border: 0px solid #232f3e;
+}
+.ebox h2,.endbox h2{
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFF;
+}
+.ebox h4{
+    margin-right: 5px;
+    font-size: 13px;
+    font-weight: 200;
+}
+.endfooter{
+    padding: 20px 0px 20px 150px;
+    background-color: #131a22;
+}
+.endfooterinner{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.endbox{
+    width: 50%;
+}
+.endbox h4{
+    margin-top: 5px;
+    margin-bottom: 1px;
+    margin-right: 5px;
+    font-size: 11px;
+    font-weight: 200;
+    color: #899a9a;
+}
+#el{
+    margin-right: 50px;
+}
+#ea{
+    border: 1px solid white; border-radius: 5px; 
+    width: 120px; 
+    height:35px; 
+    display: flex; 
+    margin-right: 10px;
+}
+.eea{
+    height: 15px;
+    padding: 8px 0px 0px 5px;
+}
+.pa{
+    font-size: 12px;
+    padding: 0px 10px 10px 10px;
+}
+#sea{
+    border: 1px solid white; border-radius: 5px; 
+    width: 120px; 
+    height:35px; 
+    display: flex;
+}

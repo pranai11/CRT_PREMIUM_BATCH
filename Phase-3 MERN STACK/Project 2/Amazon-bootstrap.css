@@ -1,0 +1,55 @@
+.logo{
+    height: 40px;
+}
+.img2{
+    margin-top: 3px;
+    height: 30px;
+}
+.img3{
+    margin-top: 6px;
+    margin-right: 5px;
+    height: 15px;
+}
+.cart{
+    height: 30px;
+}
+.item1{
+    width: 95%;
+}
+.img4{
+    margin-right: 5px;
+    height: 25px;
+}
+
+#left-sidebar{
+    top: 70px;
+    right: 11px;
+    background-color: white;
+    position: fixed;
+    height: 300px;
+    width: 800px;
+    display: none;
+    border: 0px solid black;
+    box-shadow: 1px 1px 2px grey;
+    z-index: 9999;
+}
+
+.close{
+background-position: -190px -288px;
+left: 400px;
+top: 20px;
+cursor: pointer;
+position: fixed;
+width: 50px;
+height: 50px;
+}
+
+.category{
+    margin-top: -150px;
+    position: relative;
+    z-index: 9999;
+
+}
+.carousel{
+    position: relative;
+}
