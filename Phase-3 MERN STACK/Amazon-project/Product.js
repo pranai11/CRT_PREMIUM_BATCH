@@ -15,9 +15,55 @@ import location from './images/location.png';
 import lock from './images/lock.png';
 import Header from './Header'
 import Footer from './Footer'
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 
 
 function Product() {
+
+
+
+        useEffect (()=>{
+        
+        proddetails()
+        
+        
+        },[])
+        
+        
+        const [prodid,Setprodid]=useState(null)
+        const [prodname,Setprodname]=useState(null)
+        const [proddescr,Setproddesc]=useState(null)
+        const [prodprice,Setprodprice]=useState(null)
+        const [prodrealprice,Setrealprice]=useState(null)
+        const [discount,Setdiscount]=useState(null)
+        
+        
+        const proddetails = async ()=>{
+        
+          const data=new FormData()
+        
+          data.append("product_id",7)
+        
+        
+          const details=await axios.post("https://gist.manojkoravangi.com/get-product-details.php",data,{headers:{"Content-Type":"multipart/form-data"}})
+        
+          console.log(details.data.data)
+        
+          Setprodid(details.data.data.product_id)
+          Setprodname(details.data.data.name)
+          Setproddesc(details.data.data.description)
+          Setprodprice(details.data.data.price)
+          Setrealprice(details.data.data.cutoff_price)
+          Setdiscount(details.data.data.discount)
+        
+        }
+        
+        
+
+
+
+
   return (
     <div>
 <Header/>
@@ -55,12 +101,12 @@ function Product() {
         </div>
         <div class="middle">
             <div class="matter">
-                <p>SAF large photoframes present Photo Frame For Home Décor 50 x 60 cm | Use Horizontal & Vertical | Plexi Glass | Perfect For Home, Office And Shop e-Photoframe-50x60cm</p>
+                <p><span>Product ID: </span>{prodid}<span> Name: </span>{prodname}<span> </span>{proddescr}</p>
             </div>
             <a href="#">Visit the SAF Store</a>
             <hr/>
-            <p class="offer">-75% <span class="cost">₹999</span></p>
-            <p class="mrp">M.R.P.: <span class="original">₹3,999</span></p>
+            <p class="offer">-{discount}% <span class="cost">₹{prodprice}</span></p>
+            <p class="mrp">M.R.P.: <span class="original">₹{prodrealprice}</span></p>
             <p class="mb-2">Inclusive of all taxes</p>
             <p class="emi">
                 <b>EMI</b> starts at ₹346 per month.<select class="emioption"> <option>EMI options</option>
