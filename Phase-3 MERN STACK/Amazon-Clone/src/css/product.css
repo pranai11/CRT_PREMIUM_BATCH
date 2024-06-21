@@ -1,0 +1,239 @@
+.miniimg{
+    padding-left: 180px;
+    color: grey;
+    font-size: 13px;
+}
+.productpart{
+    margin-bottom: 200px;
+}
+.third-nav{
+    height: 40px;
+    padding: 10px 5px 15px 5px;
+    background-color: white;
+    display: flex;
+    color: black;
+    border: 1px solid rgb(142, 137, 137);
+    justify-content: space-between;
+}
+.third-nav a{
+    text-decoration: none;
+    color: black;
+    font-size: smaller;
+}
+#topm{
+    margin-top: 20px;
+    font-size: small;
+    padding-left: 15px;
+}
+.main-content{
+    margin-top: 30px;
+    display: flex;
+}
+.left{
+    margin-left: 25px;
+    height: 400px;
+    width: 34%;
+    margin-right: 10px;
+}
+.img1{
+    
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.prodimg img{
+    height: 70px;
+}
+.middle{
+    margin-left: 20px;
+    height: 600px;
+    width: 450px;
+}
+.right{
+    margin-left: 35px;
+    width: 270px;
+    height: 560px;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 5px;
+    padding: 20px;
+    line-height: 20px;
+}
+.matter p{
+    font-size: x-large;
+    margin-top: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.middle a,.right a{
+    color: #007185;
+    margin: 0px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.offer{
+    margin-top:5px; 
+    color:rgb(246, 104, 104); 
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.mrp{
+    color: grey;
+    margin: 5px 0px 0px 0px;
+    font-size: 12px;
+}
+.original{
+    text-decoration: line-through;
+    margin: 0px;
+}
+.emi{
+    margin: 0px;
+    font-size: 15px;
+}
+.emioption{
+    border: 0px solid white;
+    color:#007185
+}
+.offerflex{
+    display: flex;
+}
+.offerlogo{
+    width: 25px;
+    height:100%
+}
+.offertext{
+    margin: 5px 0px 0px 10px;
+    font-weight: bold;
+}
+.bank-offer{
+    margin-top: 8px;
+    margin-bottom: 15px;
+    height: 130px;
+    width: 100%;
+    display: flex;
+}
+.offer1,.offer2{
+    margin: 0px 6px 0px 0px;
+    border-radius: 5px;
+    width: 160px;
+    height: 100%;
+    border: 1px solid rgb(169, 167, 167);
+}
+.offer1 p{
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 10px;
+    line-height: 6px;
+    color: #333535;
+}
+.offer2 p{
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 10px;
+    line-height: 6px;
+    color: #333535;
+}
+.offer1 a{
+    padding-left: 10px;
+}
+.offer2 a{
+    padding-left: 10px;
+}
+.delivery{
+    display: flex;
+}
+.indelivery{
+    display: block;
+}
+.dcontent{
+    margin-top: 2px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 1px;
+    font-size: 11px;
+    color: #007185;
+}
+.dimg{
+    height:50px;
+    padding: 10px 30px 0px 22px;
+}
+.address{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.but1,.but2{
+    width: 215px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 35px;
+    border: 0px solid grey;
+}
+.but1{
+    background-color: #fdd831;
+}
+.but2{
+    background-color:#f7851b;
+}
+.add{
+    width: 215px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 30px;
+    padding-right: 90px;
+    border: 1px solid grey;
+    background-color: white;
+}
+.cost{
+    color: black; 
+    font-size: 25px;
+}
+.text1{
+    font-size: 14px;
+}
+.text2{
+    color: black; 
+    font-size: 25px; 
+    margin: 4px; 
+    padding-bottom: 10px;
+}
+.text3{
+    font-size: 14px; 
+    margin: 0px;
+}
+.imagelocation{
+    margin-top: 5px;
+    height: 13px; 
+    margin-right: 5px;
+}
+.text4{
+    padding-left: 15px; 
+    font-size: 12px;
+}
+.text5{
+    padding-left: 15px; 
+    color: rgb(88, 164, 189); 
+    font-size: 12px;
+}
+.text6{
+    height: min-content; 
+    align-self: center;
+    margin-left: 5px;
+    padding: 5px;
+    color: black;
+    border: 1px solid rgb(175, 173, 173); 
+    border-radius: 5px;
+}
+.lock img{
+    height: 15px;
+    margin-right: 15px;
+}
+.text7{
+    color: rgb(88, 164, 189); 
+    margin: 0px; 
+    padding-top: 1px; 
+    font-size: 13px;
+}

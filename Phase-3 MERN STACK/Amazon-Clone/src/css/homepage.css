@@ -1,0 +1,124 @@
+.nature{
+    height: 100vh;
+    width: 100%;
+    
+}
+.carousel-indicators{
+    z-index: -1;
+}
+.container-fluid{
+    width: 97% !important;
+}
+.na{
+    height: 55px;
+    background-color: black;
+}
+.logo{
+    margin-bottom: 0px;
+    height: 40px;
+    width: 20px;
+}
+.print{ 
+    width: fit-content;
+    color: white;
+    font-size: small;
+}
+.prin{
+    width: fit-content;
+    color: white;
+}
+.loca{
+    height: 30px;
+}
+select{
+    background-color: transparent;
+    color: white;
+}
+.s{
+    background-color: white;
+    color: black;
+}
+.d-flex input{
+    width: 300px;
+}
+.second{
+    height: 32px;
+    font-size: medium;
+}
+.menu{
+    height: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+.con{
+    margin-top: -350px;
+    position: relative;
+    
+}
+.row>* {
+    min-width: 23% !important;
+}
+.cont{
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: larger;
+    height: 350px;
+    margin: 10px 5px 10px 5px;
+    padding-left: 3px;
+}
+.co{
+    height: 75px;
+    width: 90px;
+}
+.i{
+    height: 75px;
+    width: auto;
+}
+.down{
+    color: black;
+    font-size: 12px;
+}
+.c{
+    margin-top: 10px;
+}
+.shop{
+    color: blue;
+    font-size: 12px;
+    padding-left: 17px;
+}
+.back{
+    background-color: #e3e6e6;
+}
+.text{
+    color: black;
+    font-size: large;
+}
+.tex{
+    color: black;
+    font-size: medium;
+}
+.drop{
+    background-color: transparent;
+    margin-top: 0px;
+
+}
+.box{
+    color: black;
+    font-size: larger;
+    margin: 10px;
+}
+.sho{
+    color: blue;
+    font-size: small;
+    margin-top: 20px;
+}
+.item{
+    display: flex;
+    overflow-x: scroll;
+    height:200px;
+    width: auto;
+    margin: 10px;
+}
+.carousel-control-prev,.carousel-control-next{
+    height: 300px !important;
+}

@@ -1,0 +1,180 @@
+.carouselimg{
+    width: 100%;
+    height: 100vh;
+}
+.Head1{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logo{
+    height: 40px;
+    width: 100px !important;
+}
+.cart,.iloc,.flag{
+    display: flex;
+}
+
+.search{
+    width: 150px;
+    background-color: white;
+    height: 30px;
+    margin: 2px;
+    padding: 0px;
+}
+.search-bar{
+    width: 100%;
+}
+.cart{
+    height: 30px;
+}
+
+.loc{
+    display: block;
+}
+
+.image1{
+    margin-top: 12px;
+    margin-right: 5px;
+    height: 30px;
+}
+.image2{
+    height:50%;
+    margin-top: 8px;
+    margin-right: 2px;
+}
+
+.en{
+    padding-top: 8px;
+}
+.c{
+    padding-top: 10px;
+}
+.flag{
+    margin-top: 2px;
+}
+
+.Head2{
+    height: 30px;
+    background-color: grey;
+    display: flex;
+    color: white;
+    
+}
+.offcanvas{
+    --bs-offcanvas-width: 320px;
+}
+.menu{
+    height: 25px !important;
+    margin-right: 2px;
+    padding-top: 5px !important;
+    padding-bottom: 0px;
+    margin-right:5px !important;
+    margin-bottom: 0px;
+}
+.image3{
+    margin-right: 5px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+.close{
+    background-position: -190px -288px;
+    left: 320px;
+    top: 10px;
+    cursor: pointer;
+    position: fixed;
+    width: 40px !important;
+    height: 40px !important;
+    color: white;
+}
+.foot{
+    height: 30px;
+    background-color: grey;
+}
+#userdetailslogin{
+    display: block;
+}
+#userdetailssignout{
+    display: none;
+}
+#loginbutton{
+    display: none;
+}
+#signoutbutton{
+    display:block;
+}
+a{
+    text-decoration: none;
+}
+.details{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    padding-left: 60px;
+    margin-bottom: 10px;
+    box-shadow: 1px 2px 5px 1px rgb(183, 181, 181);
+}
+.Searched{
+    position: relative;
+    z-index: 9999;
+}
+.accountbox{
+    border: 1px solid rgb(190, 189, 189);
+    border-radius: 5px;
+    width: 270px;
+    margin-right: 20px;
+    height: 80px;
+    margin-bottom: 10px;
+    display: flex;
+    padding: 8px 10px 5px 8px;
+}
+.orders{
+    height: 55px;
+    width: 30px;
+}
+.alock{
+    height: 25px;
+    width: 30px;
+}
+.prime{
+    height: 35px;
+    width: 40px;
+}
+.locate{
+    height: 15px;
+    width: 15px;
+}
+.pay{
+    height: 45px;
+    width: 50px;
+}
+.payment{
+    height: 45px;
+    width: 50px;
+}
+.customercare{
+    height: 45px;
+    width: 40px;
+}
+.business{
+    height: 45px;
+    width: 40px;
+}
+.first{
+    margin: 0px 0px 2px 10px;
+    font-size: 15px;
+}
+.secondm{
+    margin:0;
+    font-size: 12px;
+    margin-left: 10px;
+}
