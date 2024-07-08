@@ -6,7 +6,7 @@ const cors = require('cors')
 
 
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://pranai3340:Dp_11022004@mydatabase1.ij12wdk.mongodb.net/?retryWrites=true&w=majority&appName=Mydatabase1";
+const uri = "mongodb+srv://pranai3340:<password>@mydatabase1.ij12wdk.mongodb.net/?retryWrites=true&w=majority&appName=Mydatabase1";
 app.use(cors())
 
 app.listen(8008,(req,res)=>{
